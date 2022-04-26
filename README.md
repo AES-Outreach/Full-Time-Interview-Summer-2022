@@ -51,3 +51,76 @@ Some users who have accounts with us also set up MFA to boost their accounts' se
 One of the key features of the Auth app is that it allows the users to redirect back after the authentication is completed. Therefore, your AuthApp should be accessible with a query param set in the URL:
 
 `https://your-assessment.com/?redirect=http://interview.outstem.io/oauth`
+
+When the user completes the sign in, your app shall redirect the user to the following link:
+
+`http://interview.outstem.io/oauth?identity=SOME_IDENTITY_STRING`
+
+## The Auth API endpoints
+
+### Initiate auth
+To initiate authentication, call the initiate auth endpoint.
+
+`POST http://interview.outstem.io/auth`
+
+The endpoint accepts the following body:
+
+```
+interface AuthBody {
+  email: string;
+  password: string;
+}
+```
+
+The endpoint will respond with the following body:
+
+```
+interface AuthResponse {
+  challenge?: 'MFA' | null,
+  identity?: string | null
+}
+```
+
+If the user has MFA setup, the challenge will be 'MFA' and the identity string will be null or undefined. If the user does not have MFA setup, it's vice versa.
+
+The endpoint may return the following error responses:
+
+```
+interface AuthError {
+  code: 400 | 500;
+  message: string;
+}
+```
+
+The HTTP status code will also be correctly set to reflect the status code in the body.
+
+### Verify MFA code
+
+To verify the user's MFA code use the verify mfa endpoint
+
+`POST http://interview.outstem.io/auth/mfa`
+
+The endpoint expects the following body:
+```
+interface MfaBody {
+  code: string;
+}
+```
+
+The endpoint will return the following response if code is correct
+```
+interface MfaResponse {
+  identity: string;
+}
+```
+
+The endpoint will throw the following error if the code is invalid
+```
+interface MfaError {
+  code: 400 | 500;
+  message: string;
+}
+```
+
+The HTTP status code is also correctly set for the response
+

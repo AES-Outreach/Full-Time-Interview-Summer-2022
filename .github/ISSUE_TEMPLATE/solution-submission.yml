@@ -1,0 +1,45 @@
+name: Solution Submission
+description: Submit your OutStem take-home assessment
+title: '[Submission]: YOUR_NAME take-home assessment'
+assignees:
+  - ebivibe
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for completing the OutStem take-home assessment! 🎉🎉
+
+        Please submit your solution using this form.
+  - type: input
+    id: contact
+    attributes:
+      label: Your Name
+      placeholder: ex. John Smith
+    validations:
+      required: true
+  - type: input
+    id: source-url
+    attributes:
+      label: Source Code URL
+      description: Provide a link to the repository containing your submission source code
+    validations:
+      required: true
+  - type: input
+    id: hosted-url
+    attributes:
+      label: Hosted URL
+      description: Provide a link to your hosted solution
+  - type: textarea
+    id: run-instructions
+    attributes:
+      label: Run instructions
+      description: Explain how to properly run your app.
+      placeholder: |
+        1. Do this...
+        2. Do that...
+        3. ...
+        4. Profit.
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: Anything else you would like us to know?

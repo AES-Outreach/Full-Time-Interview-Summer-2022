@@ -161,3 +161,7 @@ The valid MFA code is `123456`
     -   First and last name
     -   Password (8 characters minimum)
 -   Find other ways to improve the overall UX
+
+## Submitting
+To submit your take home assessment, create a new issue in this repository and fill out the template provided
+We would like to emphasize that our goal is to evaluate your technical proficiency, and that the challenge is part of our discussion with you during the interview, so please submit as much of the challenge as you manage to complete

@@ -135,7 +135,7 @@ All test users have the same password - `testtest`
 The valid MFA code is `123456`
 
 ## Requirements, evaluation criteria, and bonus challenges
-### Requirement
+### Requirements
 -   Implement the assessment in TypeScript/JavaScript (Preferably Typescript)
 -   Use one of the following UI frameworks (Preferably Angular):
     -   Angular
@@ -143,18 +143,16 @@ The valid MFA code is `123456`
     -   Vue
     -   Svelte
 -   The AuthApp must read a redirect URL from the URL query param. If the URL is not present, display an error to the users.
--   The UI should be clean, modern, and delightful to use.
+-   The UI should be clean, modern, and user-friendly
 -   The UI must be responsive, that is usable of all screen sizes. Preferably developed in a mobile first manner.
--   The server code is written in TypeScript, for your reference.
 
-### Criteria
--   use Javascript/TypeScript best practices
--   Show us your work through your commit history
--   Produce working code, with enough room to demonstrate how to structure components in a small program
+###  Evaluation Criteria
 -   Completeness: did you complete the features?
 -   Correctness: does the functionality act in sensible, thought-out ways?
 -   Maintainability: is it written in a clean, maintainable way?
 -   Testing: is the system adequately tested?
+-   Best Practices: Use of Javascript/TypeScript and your chosen framework's best practices
+-   Version Control: Work is shown through your commit history
 
 ### Bonus Challenges
 -   Implement a password reset UX flow

@@ -134,7 +134,7 @@ All test users have the same password - `testtest`
 
 The valid MFA code is `123456`
 
-## Requirements, evaluation criteria, and bonus challenges
+## Requirements &  evaluation criteria
 ### Requirements
 -   Implement the assessment in TypeScript/JavaScript (Preferably Typescript)
 -   Use one of the following UI frameworks (Preferably Angular):
@@ -168,7 +168,7 @@ Please submit your solution in the Summer 2022 Full Time Interview GitHub reposi
 
 We would like to emphasize that our goal is to evaluate your technical proficiency, and that the challenge is part of our discussion with you during the interview, so please submit as much of the challenge as you manage to complete
 
-### Bonus Challenges
+## Bonus Challenges
 -   Implement a password reset UX flow
 -   Create account page which collects
     -   Email address

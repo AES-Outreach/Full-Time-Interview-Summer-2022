@@ -143,8 +143,8 @@ The valid MFA code is `123456`
     -   Vue
     -   Svelte
 -   The AuthApp must read a redirect URL from the URL query param. If the URL is not present, display an error to the users.
--   The UI should be clean, modern, and user-friendly
--   The UI must be responsive, that is usable of all screen sizes. Preferably developed in a mobile first manner.
+-   The UI should be clean, modern, and user-friendly, as well as responsive, that is usable of all screen sizes. Preferably developed in a mobile first manner.
+-   You must submit your solution in a GitHub repository or a Repl.it (recommended). **Please make sure your project/repository is public and accessible by us.**
 
 ###  Evaluation Criteria
 -   Completeness: did you complete the features?
@@ -152,7 +152,21 @@ The valid MFA code is `123456`
 -   Maintainability: is it written in a clean, maintainable way?
 -   Testing: is the system adequately tested?
 -   Best Practices: Use of Javascript/TypeScript and your chosen framework's best practices
--   Version Control: Work is shown through your commit history
+
+## Submitting
+Please submit your solution in the Summer 2022 Full Time Interview GitHub repository via GitHub Issue. 
+
+1. Navigate to the following link (https://github.com/AES-Outreach/Full-Time-Interview-Summer-2022/issues/new/choose) or:
+   1. Navigate to the challenge repository
+   2. Click **Issues**
+   3. Click **New Issue**
+2. Click **Get Started** for Solution Submission
+3. Change `YOUR_NAME` to your full name in the title field
+4. Fill out the form
+5. Click **Submit New Issue**
+6. Done! Thank you for completing the challenge, we look forward to discussing your solution with you during the interview. 🎉
+
+We would like to emphasize that our goal is to evaluate your technical proficiency, and that the challenge is part of our discussion with you during the interview, so please submit as much of the challenge as you manage to complete
 
 ### Bonus Challenges
 -   Implement a password reset UX flow
@@ -161,8 +175,3 @@ The valid MFA code is `123456`
     -   First and last name
     -   Password (8 characters minimum)
 -   Find other ways to improve the overall UX
-
-## Submitting
-To submit your take home assessment, create a new issue in this repository and fill out the template provided.
-
-We would like to emphasize that our goal is to evaluate your technical proficiency, and that the challenge is part of our discussion with you during the interview, so please submit as much of the challenge as you manage to complete

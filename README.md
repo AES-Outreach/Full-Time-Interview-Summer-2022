@@ -1,5 +1,5 @@
 # Technical Interview
-Welcome to the OutStem Summer 2022 Full Time technical interview
+Welcome to the OutStem Full Time Technical Assessment
 
 ## Introduction
 In this take-home assessment, we will look at your ability to design and implement a human friendly, responsive front-end authentication flow that will safely handle the user's account details and respond to a variety of authentication challenges.

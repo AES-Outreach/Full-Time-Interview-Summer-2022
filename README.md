@@ -79,7 +79,7 @@ interface AuthResponse {
 }
 ```
 
-If the user has MFA setup, the challenge will be 'MFA' and the identity string will be null or undefined. If the user does not have MFA setup, it's vice versa.
+If the user has MFA setup, the challenge will be 'MFA' and the identity string will be null. If the user does not have MFA setup, it's vice versa.
 
 The endpoint may return the following error responses:
 

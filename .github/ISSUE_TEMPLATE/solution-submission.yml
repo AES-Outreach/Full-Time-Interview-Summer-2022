@@ -1,13 +1,13 @@
 name: Solution Submission
-description: Submit your OutStem take-home assessment
-title: '[Submission]: YOUR_NAME take-home assessment'
+description: Submit your technical assessment
+title: '[Submission]: YOUR_NAME technical assessment'
 assignees:
   - ebivibe
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for completing the OutStem take-home assessment! 🎉🎉
+        Thank you for completing the technical assessment! 🎉🎉
 
         Please submit your solution using this form.
   - type: input

@@ -102,6 +102,8 @@ The endpoint expects the following body:
 ```
 interface MfaBody {
   code: string;
+  email: string;
+
 }
 ```
 
@@ -112,7 +114,7 @@ interface MfaResponse {
 }
 ```
 
-The endpoint will throw the following error if the code is invalid
+The endpoint will throw the following error if the code or email is invalid
 ```
 interface MfaError {
   code: 400;
@@ -130,7 +132,7 @@ To test authentication functionalities, you can use the following usernames:
 
 All test users have the same password - `testtest`
 
-The valid MFA code is `123456`
+The valid MFA code for mfa@outstem.io is `123456`
 
 ## Requirements &  evaluation criteria
 ### Requirements

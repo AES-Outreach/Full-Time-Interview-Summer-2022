@@ -103,11 +103,10 @@ The endpoint expects the following body:
 interface MfaBody {
   code: string;
   email: string;
-
 }
 ```
 
-The endpoint will return the following response if code is correct
+The endpoint will return the following response if code & email is correct
 ```
 interface MfaResponse {
   identity: string;

@@ -85,7 +85,7 @@ The endpoint may return the following error responses:
 
 ```
 interface AuthError {
-  code: 400 | 500;
+  code: 400;
   message: string;
 }
 ```
@@ -115,7 +115,7 @@ interface MfaResponse {
 The endpoint will throw the following error if the code is invalid
 ```
 interface MfaError {
-  code: 400 | 500;
+  code: 400;
   message: string;
 }
 ```

@@ -2,11 +2,10 @@
 Welcome to the OutStem Full Time Technical Assessment
 
 ## Introduction
+_All scenarios in this assessment are fictional and are not reflective of the experience you will have during your day-to-day work._
+
 In this take-home assessment, we will look at your ability to design and implement a human friendly, responsive front-end authentication flow that will safely handle the user's account details and respond to a variety of authentication challenges.
 
-You will be given a few mock server endpoints that you will integrate with your application. Unfortunately, the back-end developers are all on vacation so you are required to understand the endpoints by looking at the references the developers wrote before they left.
-
-_All scenarios in this assessment are fictional and are not reflective of the experience you will have during your day-to-day work._
 
 ## The Challenge
 Recently, the business team proposed a unified identity authentication interface (let's call it AuthApp for now) for all of OutStem's applications. All of OutStem's apps will redirect the user to AuthApp when authentication is required.
@@ -16,7 +15,10 @@ The sign in flow you will implement has 3 pages:
 - Sign in with email and password page
 - MFA code page
 
-## Pages
+
+You will be given a few mock server endpoints that you will integrate with your application. Unfortunately, the back-end developers are all on vacation so you are required to understand the endpoints by looking at the references the developers wrote before they left.
+
+## Front End Pages
 ### Sign in options page
 
 Our business team would prefer users to prioritize Social Sign In options over logging in with an email and password, this reduces the risk of fraud and simplifies the sign in experience for our users. They can click on a button and reuse their existing identities with Google or Microsoft for our app.

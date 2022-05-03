@@ -74,8 +74,8 @@ The endpoint will respond with the following body:
 
 ```
 interface AuthResponse {
-  challenge?: 'MFA' | null,
-  identity?: string | null
+  challenge: 'MFA' | null,
+  identity: string | null
 }
 ```
 

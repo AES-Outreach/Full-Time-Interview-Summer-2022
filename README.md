@@ -48,11 +48,11 @@ Some users who have accounts with us also set up MFA to boost their accounts' se
 
 One of the key features of the Auth app is that it allows the users to redirect back after the authentication is completed. Therefore, your AuthApp should be accessible with a query param set in the URL:
 
-`https://your-assessment.com/?redirect=http://interview.outstem.io/oauth`
+`https://your-assessment.com/?redirect=https://interview.outstem.io/oauth`
 
 When the user completes the sign in, your app shall redirect the user to the following link:
 
-`http://interview.outstem.io/oauth?identity=SOME_IDENTITY_STRING`
+`https://interview.outstem.io/oauth?identity=SOME_IDENTITY_STRING`
 
 ## The Auth API endpoints
 

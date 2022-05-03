@@ -59,7 +59,7 @@ When the user completes the sign in, your app shall redirect the user to the fol
 ### Initiate auth
 To initiate authentication, call the initiate auth endpoint.
 
-`POST http://interview.outstem.io/auth`
+`POST https://interview.outstem.io/auth`
 
 The endpoint accepts the following body:
 
@@ -96,7 +96,7 @@ The HTTP status code will also be correctly set to reflect the status code in th
 
 To verify the user's MFA code use the verify mfa endpoint
 
-`POST http://interview.outstem.io/auth/mfa`
+`POST https://interview.outstem.io/auth/mfa`
 
 The endpoint expects the following body:
 ```

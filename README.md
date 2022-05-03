@@ -2,11 +2,9 @@
 Welcome to the OutStem Summer 2022 Full Time technical interview
 
 ## Introduction
-In this take-home assessment, we will look at your ability to design and implement a human friendly, responsive user interface and interact with back-end endpoints.
+In this take-home assessment, we will look at your ability to design and implement a human friendly, responsive front-end authentication flow that will safely handle the user's account details and respond to a variety of authentication challenges.
 
-For this take-home assessment, you shall design and implement a front-end authentication flow UI that will safely handle the user's account details and respond to a variety of authentication challenges.
-
-You will be given a few mock server endpoints that will shall integrate in your application. Unfortunately, the back-end developers are all on vacation so you are required to understand the endpoints by looking at the references the developers wrote before they left.
+You will be given a few mock server endpoints that you will integrate with your application. Unfortunately, the back-end developers are all on vacation so you are required to understand the endpoints by looking at the references the developers wrote before they left.
 
 _All scenarios in this assessment are fictional and are not reflective of the experience you will have during your day-to-day work._
 
